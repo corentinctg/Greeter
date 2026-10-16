@@ -4,6 +4,6 @@ namespace greeter
 {
 	std::string get_message(const std::string& name)
 	{
-		return "hello " + name + "!";
+		return "Hello " + name + "!";
 	}
 }
