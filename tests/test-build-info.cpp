@@ -17,5 +17,7 @@ int main()
     errors += check_equal(
         greeter::get_build_info().substr( 0, start.size() ), start );
 
+
     return errors;
+
 }
